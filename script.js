@@ -26,7 +26,7 @@ function converter() {
         animateResult()
     } else if(selectedCurrency.value === 'dol') {
         valueConverted = inputValue.value / 5.37
-        result.innerHTML = valueFormatter('pt-br', 'EUR')
+        result.innerHTML = valueFormatter('en-US', 'USD')
     }
     inputValue.value = ''
     selectedCurrency.value = ''
